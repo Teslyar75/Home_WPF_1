@@ -1,0 +1,60 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Домашка" Height="800" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Grid.ColumnSpan="8" Grid.RowSpan ="9" Background="#FFEDAE0E"></Button>
+            <Button Margin="5" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="#FF080707">1</Button>
+            <Button Margin="5" Grid.Row="0" Grid.Column="2"  Grid.RowSpan ="2" Background="#FFF6F2F2">3</Button>
+            <Button Margin="5" Grid.Row="0" Grid.Column="3" Background="#FF7A7575">4</Button>
+            <Button Margin="5" Grid.Row="0" Grid.Column="4" Background="#FFD39FDC">5</Button>
+            <Button Margin="5" Grid.Row="0" Grid.Column="5" Background="#FFB917D6">6</Button>
+            <Button Margin="5" Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan ="2" Background="#FF99D0D1">7</Button>
+            <Button Margin="5" Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="2" Background="#FF16DF3D">9</Button>
+            <Button Margin="5" Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="3" Grid.RowSpan ="5" Background="#FF66B46A">12</Button>
+            <Button Margin="5" Grid.Row="2" Grid.Column="0"  Grid.ColumnSpan="2" Background="#FF1630ED">17</Button>
+            <Button Margin="5" Grid.Row="2" Grid.Column="2"  Grid.RowSpan ="2" Background="#FF163088">19</Button>
+            <Button Margin="5" Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan ="2" Background="#FFD0A931">23</Button>
+            <Button Margin="5" Grid.Row="3" Grid.Column="0"  Grid.ColumnSpan="2" Background="#FF180303">25</Button>
+            <Button Margin="5" Grid.Row="4" Grid.Column="0"  Grid.ColumnSpan="2" Background="#FF12B4C3">33</Button>
+            <Button Margin="5" Grid.Row="4" Grid.Column="2"  Grid.RowSpan ="5" Background="#FF23B2CE">35</Button>
+            <Button Margin="5" Grid.Row="4" Grid.Column="6" Grid.ColumnSpan="2" Grid.RowSpan ="2" Background="#FFF3E567">39</Button>
+            <Button Margin="5" Grid.Row="5" Grid.Column="0"  Grid.ColumnSpan="2"  Grid.RowSpan ="2" Background="#FF0F5AB7">41</Button>
+            <Button Margin="5" Grid.Row="5" Grid.Column="3" Grid.ColumnSpan="3" Background="#FFE51717">44</Button>
+            <Button Margin="5" Grid.Row="6" Grid.Column="3"  Grid.RowSpan ="3" Background="#FFC0B5B5">52</Button>
+            <Button Margin="5" Grid.Row="6" Grid.Column="4" Grid.ColumnSpan="4" Background="#FF655E5E">53</Button>
+            <Button Margin="5" Grid.Row="7" Grid.Column="0" Grid.RowSpan="2" Background="#FFD3940E">57</Button>
+            <Button Margin="5" Grid.Row="7" Grid.Column="1" Grid.RowSpan="2" Background="#FFE2CE52">58</Button>
+            <Button Margin="5" Grid.Row="7" Grid.Column="4" Grid.ColumnSpan="2" Grid.RowSpan ="2" Background="#FF1B1C86">61</Button>
+            <Button Margin="5" Grid.Row="7" Grid.Column="6" Grid.ColumnSpan="2" Background="#FFCA1FE8" >63</Button>
+            <Button Margin="5" Grid.Row="8" Grid.Column="6" Background="#FFE51717">71</Button>
+            <Button Margin="5" Grid.Row="8" Grid.Column="7" Background="#FFBD4615">72</Button>
+        
+
+    </Grid>
+</Window>
